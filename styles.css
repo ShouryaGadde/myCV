@@ -1,0 +1,186 @@
+/* html elements */
+body {
+  background-color: #c9d1d3;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+}
+div {
+  background-color: #c9d1d3;
+}
+h1 {
+  font-style: italic;
+  font-family: sans-serif;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #472b62;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-align: center;
+}
+a {
+  color: #11999E;
+}
+a:hover {
+  color: #EAF6F6;
+}
+p {
+  margin-top: 0;
+  color: #40514E;
+  font-weight: bold;
+}
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  border-color: #9dab86;
+  width: 4%;
+}
+/* classes */
+.intro {
+  width: 40%;
+  margin: 50px auto 50px auto;
+  line-height: 1.5;
+}
+.h1-class {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  bottom: 100px;
+  left: 400px;
+  font-size: 6rem;
+  color: #472b62;
+  line-height: 2;
+  font-weight: normal;
+}
+.h2-class {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 100px;
+  left: 620px;
+  font-size: 2.5rem;
+  color: #472b62;
+  font-weight: normal;
+}
+.Top-Container {
+  background-color: #51eaea;
+  height: 500px;
+  margin: 20 20 20 20;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+.top-pic {
+  width: 15%;
+  border-radius: 50%;
+  padding: 50px;
+}
+.left-pic {
+  border-radius: 50%;
+  height: 150px;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+.right-pic {
+  border-radius: 50%;
+  height: 150px;
+  position: absolute;
+  right: 100px;
+  top: 200px;
+}
+.Education-Container {
+  background-color: #a3f7bf;
+  height: 200px;
+  margin: 20 20 20 20;
+  position: relative;
+  padding-top: 20px;
+  font-size: 30;
+}
+.Experience-Container {
+  background-color: #51eaea;
+  height: 200px;
+  margin: 20 20 20 20;
+  position: relative;
+  padding-top: 20px;
+}
+.Skills-Container {
+  background-color: #a3f7bf;
+  height: auto;
+  margin: 20 20 20 20;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: justify;
+  line-height: 2;
+}
+.Skills-img {
+  width: 40%;
+  height: 40%;
+  float: right;
+  padding: 10px;
+}
+.food-img {
+  width: 40%;
+  height: 40%;
+  float: left;
+  padding: 10px;
+
+}
+.sing-img {
+  width: 40%;
+  float: right;
+  padding: 10px;
+}
+.school-img {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+/* button css */
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* Bottom Container */
+.footer-p {
+  color: #EAF6F6;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.5;
+}
+.footer-link {
+  color: #11999E;
+  margin: 10px 40px;
+  text-decoration: none;
+}
+.Bottom-Container {
+  background-color: #66BFBF;
+  padding: 30px;
+}
